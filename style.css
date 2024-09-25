@@ -3,6 +3,11 @@ body{
     margin-left: 30px;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(PlayfairDisplay-Regular.woff);
+}
+
 .header1{
     color: black;
     box-sizing: border-box;
@@ -31,20 +36,27 @@ hr{
     justify-content: flex-start;
     flex-direction: row;
     color: black;
-    text-align: left;
-    width: 70%;
+    font-family: myFirstFont;
+
 }
 
 #one{
     
     margin: 15px 20px 20px 15px;
     padding: 25px;
+    width: 50%;
 }
 
 #two{
-    
     margin: 15px 20px 20px 25px;
     padding: 25px;
+    width: 25%;
+}
+
+#three{
+    margin: 15px 20px 20px 25px;
+    padding: 25px;
+    width: 25%;
 }
 
 .divide{
@@ -58,4 +70,19 @@ hr{
 
 p{
     letter-spacing: 2px;
+}
+
+button{
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 10px;
+
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: black;
 }
